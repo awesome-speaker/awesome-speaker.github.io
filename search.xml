@@ -11,6 +11,12 @@
         <content type="html"><![CDATA[<h1 id="Equal-Error-Rate"><a href="#Equal-Error-Rate" class="headerlink" title="Equal Error Rate"></a>Equal Error Rate</h1><p>EER is defined as the point where the True positive rato (TPR) equals to False positive rato (FPR).<br>In other words, it is the threshold at which the system is equally likely to wrongly accept a non-matching individual as it is to wrongly reject a matching individual. </p><h2 id="Code-Implementation"><a href="#Code-Implementation" class="headerlink" title="Code Implementation"></a>Code Implementation</h2><p><a href="https://github.com/wenet-e2e/wespeaker/blob/master/wespeaker/utils/score_metrics.py#L79">Wespeaker</a></p><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul><li><a href="https://www.cnblogs.com/cdeng/p/3471527.html">https://www.cnblogs.com/cdeng/p/3471527.html</a></li></ul><h1 id="minimum-Detection-Cost-Function"><a href="#minimum-Detection-Cost-Function" class="headerlink" title="minimum Detection Cost Function"></a>minimum Detection Cost Function</h1><p>The minDCF is a more comprehensive metric that takes into account the costs associated with different types of errors (false acceptances and false rejections) and the prior probabilities of the classes (target vs. non-target speakers).<br>For example, in a military system, we want the system to be stricter and not to mistakenly allow a person to pass.</p><h2 id="Code-Implementation-1"><a href="#Code-Implementation-1" class="headerlink" title="Code Implementation"></a>Code Implementation</h2><p><a href="https://github.com/wenet-e2e/wespeaker/blob/master/wespeaker/utils/score_metrics.py#L96">Wespeaker</a></p><h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><ul><li><a href="https://blog.csdn.net/weixin_41126303/article/details/114293441">https://blog.csdn.net/weixin_41126303/article/details/114293441</a></li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> Research </category>
+          
+      </categories>
+      
       
         <tags>
             
