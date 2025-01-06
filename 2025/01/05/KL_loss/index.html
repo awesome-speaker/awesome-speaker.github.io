@@ -260,6 +260,31 @@
 
 
 
+  
+    <script async type="text/javascript" src='https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js' onload="loadValineSuc(this)"></script>
+  
+
+  <div id="vcomments"></div>
+
+  <script>
+    function loadValineSuc() {
+      new Valine({
+        el: '#vcomments',
+        appId: 'sBD6X2tRg2TzeP0OqMfUzCoF-MdYXbMMI',
+        appKey: 'onI0hR0X9Dbx7KfTQoIakUgl',
+        placeholder: 'Welcome to comment!',
+        avatar: 'retro',
+        lang: 'en'
+      })
+    }
+  </script>
+
+    <style>
+      .comments-container .v .vempty {
+        display: none!important;
+      }
+    </style>
+
 
 
 
